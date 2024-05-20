@@ -4,6 +4,25 @@
 
 Model versioning and tracking are essential for managing the lifecycle of machine learning models. This README provides guidelines for effectively controlling and migrating model versions, ensuring reproducibility, collaboration, and reliability.
 
+## Azure OpenAI Model Version Upgrades
+
+### How Azure Updates OpenAI Models
+
+Azure releases new model versions in collaboration with OpenAI. Customers can test new versions upon release and are notified at least two weeks before a new version becomes the default. Previous major versions are maintained until their retirement date.
+
+### Preparing for Version Upgrades
+
+1. **Review What's New:**
+   Stay updated with the latest changes and features in new model versions.
+2. **Read Documentation:**
+   Understand how to work with model versions by reading the documentation on [model deployments and version upgrades](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/model-versions).
+3. **Test Applications:**
+   Test your applications and workflows with new model versions.
+4. **Update Code and Configuration:**
+   Adapt your code and configurations to leverage new features and capabilities.
+
+By following these best practices, you can effectively manage the lifecycle of your machine learning models, ensuring smooth transitions between versions and maintaining high standards of performance and reliability.
+
 ## Model Version Control & Tracking
 
 ### Key Components to Track
@@ -75,21 +94,3 @@ Allows comparison of different model versions and reverting to a stable version 
 9. **Reliability:**
    Allow comparison of different model versions and revert to stable versions if errors occur.
 
-## Azure OpenAI Model Version Upgrades
-
-### How Azure Updates OpenAI Models
-
-Azure releases new model versions in collaboration with OpenAI. Customers can test new versions upon release and are notified at least two weeks before a new version becomes the default. Previous major versions are maintained until their retirement date.
-
-### Preparing for Version Upgrades
-
-1. **Review What's New:**
-   Stay updated with the latest changes and features in new model versions.
-2. **Read Documentation:**
-   Understand how to work with model versions by reading the documentation on [model deployments and version upgrades](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/model-versions).
-3. **Test Applications:**
-   Test your applications and workflows with new model versions.
-4. **Update Code and Configuration:**
-   Adapt your code and configurations to leverage new features and capabilities.
-
-By following these best practices, you can effectively manage the lifecycle of your machine learning models, ensuring smooth transitions between versions and maintaining high standards of performance and reliability.

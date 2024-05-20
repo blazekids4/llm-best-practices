@@ -4,6 +4,12 @@
 
 Text embeddings models are evaluated based on their performance across various tasks. Understanding these tasks and their use cases is crucial for selecting the most suitable model for your needs. This README provides guidance on how to evaluate and choose text embeddings models, including resources and examples of common tasks.
 
+**Helpful Links:**
+
+- [MTEB Leaderboard - a Hugging Face Space by mteb](https://huggingface.co/spaces/mteb/leaderboard)
+- [2210.07316 (arxiv.org)](https://arxiv.org/abs/2210.07316)
+
+
 ## Evaluation Tasks and Use Cases
 
 ### Bitext Mining
@@ -95,7 +101,3 @@ Selecting the right text embeddings model requires careful consideration of the 
 
 ---
 
-**Helpful Links:**
-
-- [MTEB Leaderboard - a Hugging Face Space by mteb](https://huggingface.co/spaces/mteb/leaderboard)
-- [2210.07316 (arxiv.org)](https://arxiv.org/abs/2210.07316)
